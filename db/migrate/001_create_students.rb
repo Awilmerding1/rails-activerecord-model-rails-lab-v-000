@@ -1,1 +1,1 @@
-	class CreatePosts < ActiveRecord::Migrationdef changecreate_table :posts do |t|t.string :titlet.text :descriptiont.timestamps null: falseendi.endj.	end
+class CreateStudents < ActiveRecord::Migrationdef changecreate_table :posts do |t|t.string :titlet.text :descriptionendendend
